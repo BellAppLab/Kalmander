@@ -1,0 +1,11 @@
+platform :ios, '12.0'
+
+target 'iOS Example' do
+  use_frameworks!
+
+  pod 'Surge', '~> 2.3.2'
+
+  target 'iOS ExampleTests' do
+    inherit! :search_paths
+  end
+end
